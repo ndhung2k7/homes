@@ -1184,3 +1184,23 @@ a:focus {
     margin-top: 0px;
   }
 }
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background: #0056b3;
+}
