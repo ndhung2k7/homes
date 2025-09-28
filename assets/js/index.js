@@ -1,8 +1,21 @@
 
-    /*-----------------------------------------------------------------
-     Toastr
-    -------------------------------------------------------------------*/        
-    const notyf = new Notyf({
+    let qrModal = document.getElementById("qrModal");
+
+function showQR() {
+  qrModal.style.display = "flex";
+}
+
+function closeQR() {
+  qrModal.style.display = "none";
+}
+
+// Đóng popup khi click ngoài
+window.onclick = function(event) {
+  if (event.target === qrModal) {
+    closeQR();
+  }
+}
+
         position: {
           x: 'right',
           y: 'top',
